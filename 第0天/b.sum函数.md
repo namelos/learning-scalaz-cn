@@ -128,5 +128,5 @@ scala> val multiMonoid: Monoid[Int] = new Monoid[Int] {
 multiMonoid: Monoid[Int] = $anon$1@48655fb6
 
 scala> sum(List(1, 2, 3, 4))(multiMonoid)
-res14: Int = 24FoldLeft
+res14: Int = 24
 ```
