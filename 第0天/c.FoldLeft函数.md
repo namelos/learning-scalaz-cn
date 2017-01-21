@@ -1,5 +1,5 @@
 # FoldLeft(左折叠)
-> 我们想要一个操作任意列表的泛化函数……于是我们要泛化foldLeft这个函数
+> 我们还想要一个泛化掉List的函数……于是我们要泛化foldLeft这个函数。
 
 ```Scala
 scala> object FoldLeftList {
@@ -58,3 +58,5 @@ res21: String = abc
 ```
 这样Int和List类型上定义的函数都从sum函数上抽掉了。
 ## Scalaz中的类型类(Typeclass)
+在上面的例子里，Monoid这个trait和FoldLeft都对应Haskell中类型类的概念。Scalaz为我们提供了很多类型类。
+> 一切都被拆分成满足你需求的最小单元。这有点像一个终极的鸭式辨型(ducktyping)，因为你定义的函数里只提供你需要使用的(方法/函数)，除此之外就没别的了。
