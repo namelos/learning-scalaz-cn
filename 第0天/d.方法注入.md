@@ -47,4 +47,4 @@ res3: Int = 2
 scala> if (1 > 10) 1 else 2
 res4: Int = 2
 ```
-希望你可以对Scalaz的找到一些感觉。
+希望你可以对Scalaz的找到一些感觉。md
