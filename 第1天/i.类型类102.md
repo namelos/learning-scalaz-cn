@@ -47,3 +47,4 @@ green: TrafficLight = TrafficLight(green)
 TrafficLightEqual: scalaz.Equal[TrafficLight] = scalaz.Equal$$anon$7@42988fee
 res3: Boolean = false
 ```
+Yes
